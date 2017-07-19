@@ -2,3 +2,33 @@ h1{
   color: green;
   text-transform: capitalize;
 }
+
+html, body{
+  width: 100%;
+}
+
+#container{
+  background-color: #F2F2F2;
+  width: 360px;
+  margin: 0 auto;
+}
+.completed{
+  text-decoration: line-through;
+  color: grey;
+}
+
+ul{
+  width: 100%;
+}
+li{
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  background-color: #fff;
+  line-height: 40px;
+  font-weight: 24px;
+}
+
+li:nth-child(odd){
+  background-color: : red;
+}
