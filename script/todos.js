@@ -12,10 +12,10 @@ $("ul").on("click","span",function(e){
 $("input").on("keypress",function(e){
   if(e.which === 13){
     var data = $(this).val();
-    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i>&nbsp&nbsp</span> " + data + "</li>");
+    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + data + "</li>");
     $(this).val("");
   }
 });
-$("i").on("click",function(){
+$(".fa-plus").on("click",function(){
   $("input").toggleClass("invisible");
 });
